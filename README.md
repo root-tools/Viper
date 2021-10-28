@@ -2,359 +2,176 @@
    <img width="200" src="https://cdn.nlark.com/yuque/0/2020/svg/159259/1590851265515-f865560b-ba50-4ca3-b2f6-5e8db3268da1.svg#align=left&display=inline&height=200&margin=%5Bobject%20Object%5D&name=logo.svg&originHeight=200&originWidth=200&size=1378&status=done&style=none&width=200">
 </p>
 
-- Viper(炫彩蛇)是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化.
-- Viper(炫彩蛇)集成杀软绕过,内网隧道,文件管理,命令行等基础功能.
-- Viper(炫彩蛇)当前已集成70+个模块,覆盖初始访问/持久化/权限提升/防御绕过/凭证访问/信息收集/横向移动等大类.
-- Viper(炫彩蛇)目标是帮助红队工程师提高攻击效率,简化操作,降低技术门槛.
-- Viper(炫彩蛇)支持在浏览器中运行原生msfconsole,且支持多人协作.
+English | [简体中文](./README_ZH.md)
+
+- Viper is a graphical intranet penetration tool, which modularizes and weaponizes the tactics and technologies commonly used in the process of Intranet penetration
+- Viper integrates basic functions such as bypass anti-virus software, intranet tunnel, file management, command line and so on
+- Viper has integrated 80+ modules, covering Resource Development / Initial Access / Execution / Persistence / Privilege Escalation / Defense Evasion / Credential Access / Discovery / Lateral Movement / Collection and other categories
+- Viper's goal is to help red team engineers improve attack efficiency, simplify operation and reduce technical threshold
+- Viper supports running native msfconsole in browser and multi - person collaboration
 
 <br>
 
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/159259/1609217643743-4bdb0829-d5fa-46d3-9ba9-43f403666d4e.png)
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1631688473804-d80f746b-e2fd-4d53-a44e-8bf8c4dc89d1.png?x-oss-process=image%2Fresize%2Cw_2250%2Climit_0)
 <br>
 <br>
 <br>
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1616893007637-af0e7673-20e0-433d-bb9b-e3db29a06915.png#align=left&display=inline&height=746&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1491&originWidth=2859&size=378265&status=done&style=none&width=1429.5)
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1631688521936-66b17009-3830-4925-941d-aad201252f90.png?x-oss-process=image%2Fresize%2Cw_2256%2Climit_0)
 <br>
 <br>
 <br>
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/159259/1609217703998-8bebe969-7a26-4f75-b2cb-6dca34a39951.png#align=left&display=inline&height=511&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1022&originWidth=2028&size=191127&status=done&style=none&width=1014)
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1631688605817-27cf835d-fd4c-42cc-95a1-880ea5cf9102.png?x-oss-process=image%2Fresize%2Cw_2256%2Climit_0)
 <br>
 <br>
 <br>
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/159259/1609217723155-f57417f1-2229-4386-888a-c8608449643c.png#align=left&display=inline&height=511&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1022&originWidth=2028&size=296317&status=done&style=none&width=1014)
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1631688493291-48972160-0e2a-4757-a3a0-a466003d98f3.png?x-oss-process=image%2Fresize%2Cw_2256%2Climit_0)
+<br>
+<br>
+<br>
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1631688640236-8f79ff40-e012-4fe8-89ce-cfcf2fd6627e.png?x-oss-process=image%2Fresize%2Cw_2256%2Climit_0)
+<br>
+<br>
+<br>
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1631688660123-906ed19d-a6df-4632-8169-b6edf50c6ef7.png?x-oss-process=image%2Fresize%2Cw_2256%2Climit_0)
 <br>
 
-# 官网
+# Website
 
-- [https://www.yuque.com/vipersec](https://www.yuque.com/vipersec)
+- [https://www.yuque.com/viper-en](https://www.yuque.com/viper-en?language=en-us)
 
-# 安装
+# Installation manual
 
-- [安装](https://www.yuque.com/vipersec/help/olg1ua)
+- [Installation manual](https://www.yuque.com/viper-en/inh85g/cvucxz?language=en-us)
 
-# 常见问题
+# Updatelog
 
-- [FAQ](https://www.yuque.com/vipersec/faq)
+<details>
+<summary><b>✨Click to expand</b></summary>
 
-# 问题反馈
+## v1.5.5 20211024
+### New Features
+- Added `CVE-2021-40449 LPE` module
+- One click download all Viper logs from WEBUI
+### Optimization
+- Merged metasploit-framework 6.1.12
+### Bugfix
+- Fix the port occupancy problem after the socks is removed
+
+## v1.5.4 20211017
+### New Features
+- Added `MS17-010 Exploit (CSharp)` module
+### Optimization
+- Merged metasploit-framework 6.1.11
+### Bugfix
+- Fix duplicate add reverse_http(s) handler failed to deal with session online requests.
+
+## v1.5.3 20211010
+### Optimization
+- Optimize msfconsole user experience
+- Merged metasploit-framework 6.1.10
+
+<br/>
+
+## v1.5.2 20211007
+
+### Optimization
+- Login page multilingual support
+- Merged metasploit-framework 6.1.9
+
+## v1.5.1 20210926
+### New Features
+- Added `Obtain Internet outbound IP` module
+- New search filter for session process list
+
+### Optimization
+- Antivirus software display supports English version
+- Optimize the output format of the intranet scanning module
+- Optimize the performance and UI of the `Run Module` function
+- Merged metasploit-framework 6.1.8 version
+
+### Bugfix
+- Fix the problem that the name of antivirus software is not displayed
+
+## v1.5.0 20210919
+### New Features
+- VIPER now support English language
+
+### Optimization
+- Optimized the format of session online SMS
+- Merged metasploit-framework 6.1.7 version
+
+### Bugfix
+- Fixed the issue that `ExitOnSession` did not take effect
+- Fix the issue that the bind handler of the exploit module does not take effect
+
+## v1.4.2 20210822
+
+### New Features
+- Added `Session online by SCF (Tencent API Gateway)` module
+
+### Optimization
+- Use Unix socketpair to replace 127.0.0.1 socketpair to improve performance
+- Optimize the `handler` function, add HttpHostHeader parameter
+- Block ids check of session
+- Merged metasploit-framework 6.1.5 version
+
+### Bugfix
+- Fixed the problem that some module tasks could not be deleted
+- Fixed the issue of channel not being released in MSF
+- Fix the issue of `Clone Https certificate` certificate length, adapt to the new features of SSLVersion
+- Fix the issue that the session does not respond after the use of Linux intranet routing and command execution due to stream hang
+
+</details>
+
+
+# FAQ
+
+- [FAQ](https://www.yuque.com/viper-en/faq)
+
+# Issues
 
 - github issues : [https://github.com/FunnyWolf/Viper/issues](https://github.com/FunnyWolf/Viper/issues)
-- [https://github.com/knownsec/404StarLink2.0-Galaxy#community](https://github.com/knownsec/404StarLink2.0-Galaxy#community)
 
+# Modules
 
-# 开发手册
+- [Document link](https://www.yuque.com/viper-en/module)
 
-- [开发手册](https://www.yuque.com/vipersec/code)
+# System architecture diagram
 
-# 源代码
+![viper.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1627364231093-768d3b07-e044-4a2d-a3fa-e9ebd92a0828.png)
 
-- viperjs (前端)
+# Development
+
+- [Development](https://www.yuque.com/viper-en/code)
+
+# Source Code
+
+- viperjs (Frontend)
 
 [https://github.com/FunnyWolf/viperjs](https://github.com/FunnyWolf/viperjs)
 
-- viperpython (后台)
+- viperpython (Backend)
 
 [https://github.com/FunnyWolf/viperpython](https://github.com/FunnyWolf/viperpython)
 
-- vipermsf (渗透服务)
+- vipermsf (MSFRPC)
 
 [https://github.com/FunnyWolf/vipermsf](https://github.com/FunnyWolf/vipermsf)
 
+# Thanks
 
-# 致谢
-Edward_Snowdeng
-exp
+Edward_Snowdeng exp
 [Fnzer0](https://github.com/Fnzer0)
 [qingyun00](https://github.com/qingyun00)
-脸谱
-NoobFTW
-Somd5-小宇
+脸谱 NoobFTW Somd5-小宇
 [timwhitez](https://github.com/timwhitez)
 [ViCrack](https://github.com/ViCrack)
 [xiaobei97](https://github.com/xiaobei97)
 [yumusb](https://github.com/yumusb)
 
 
-# 更新日志
-## v1.3.6 20210509
-### 新功能
-- 新增`上传并执行可执行文件`模块,用于`自动编排`场景
-
-### 优化
-- 优化`网络拓扑`前端UI
-- 优化`关于VIPER`跳转提示
-- 优化Websocket心跳机制,token失效时自动跳转到登录页
-- 合并metasploit-framework 6.0.44版本
-
-### Bugfix
-- 修复reverse_http类型Session网络连接显示127.0.0.1问题(MSF原生BUG)
-- 修复模块中使用cmd_exec时超时无法处理问题(MSF原生BUG)
-
-## v1.3.5 20210503
-### 新功能
-- 新增`自动编排`功能,用于自动持久化,自动信息收集等
-- 监听配置新增`自动unhook`配置
-
-### 优化
-- 优化`session监控`功能,通知中包含权限详细信息
-- 合并metasploit-framework 6.0.43版本
-
-## v1.3.4 20210425
-### 新功能
-- 新增"获取Windows补丁列表"模块,用于演示模块开发
-- `全网扫描`新增360Quake接口
-- `全网扫描`添加Mock数据,用于模块开发调试
-
-### 优化
-- 优化`全网扫描`前端UI
-- 优化`全网扫描`模块框架,无需修改MSF代码即可开发模块
-- 优化reverse_tcp,socks代理DDos提示
-- 更新GeoLite2数据库
-- 合并metasploit-framework 6.0.42版本
-
-### Bugfix
-- 修复session_host异常导致主界面无法显示问题
-
-## v1.3.3 20210418
-### 新功能
-- Viper(炫彩蛇)当前已支持自定义mettle
-- 所有免杀模块支持导出C++源码(VS工程),方便用户自定义修改
-
-### 优化
-- 支持Linux类型Sesison的pid显示(mettle定制)
-- 合并metasploit-framework 6.0.41版本
-
-### Bugfix
-- 修复一次性删除大量主机时返回502错误码问题
-
-## v1.3.2 20210411
-### 新功能
-- Viper(炫彩蛇)被暴力破解时发送消息提示
-- `reverse_https`监听添加心跳抖动,规避流量检测
-- 新增`父进程PID伪装规避检测`模块
-
-### 优化
-- 优化主界面网络状态展示
-- 优化`网络拓扑` `监听载荷` `Console`前端UI
-- 更新`平台设置`相关链接
-- 优化`255.255.255.255`主机处理逻辑
-- uwsgi修改为单线程
-- 优化系统初始化流程
-- 合并metasploit-framework 6.0.40版本
-
-### Bugfix
-- 修复`reverse_https`类型监听非法请求TCP连接无法释放问题(MSF原生BUG)
-
-
-## v1.3.1 20210404
-### 新功能
-- 新增`反溯源配置`
-### 优化
-- redis及msfrpc使用动态密码
-- `网络拓扑`新增权限类型节点
-- gencert.sh当前可检查用户输入是否有效
-- 优化模块相关部分代码
-- 合并metasploit-framework 6.0.39版本
-### Bugfix
-- 修复免杀模块运行错误问题
-- 修复`端口扫描`及`端口扫描与服务识别`模块在Linux类型权限下运行失败问题
-- 修复gencert.sh脚本不能强制替换问题
-- 修复os.path.join任意文件读取问题
-
-## v1.3.0 20210328
-### 新功能
-- 新增`网络拓扑`功能
-### 优化
-- 免杀类型模块归类到`执行`类别
-- Session列表中新增Pid信息
-- 优化主机信息管理部分代码
-### Bugfix
-- 修复Session心跳超时显示效果错误问题
-- 合并metasploit-framework 6.0.38版本
-
-## v1.2.6 20210321
-- 新增`获取向日葵密码`模块(by Somd5-小宇)
-- 新增`内存执行C#可执行文件(Bypass)`模块
-- 新增`Reverse_https直连免杀`模块
-- 新增`Reverse_TCP_RC4直连免杀`模块
-- 优化reverse_http/reverse_https类型载荷的稳定性
-- 优化reverse_http/reverse_https类型载荷的隐蔽性
-- 优化reverse_https监听逻辑,当前不在默认使用偏执模式
-- 优化reverse_http/reverse_http监听载荷,LURI默认使用随机路径
-- 优化reverse_tcp_rc4监听载荷,rc4密码默认使用随机字符串
-- 优化模块UI,当前模块支持展示多个作者
-- 优化载荷生成,当前可直接生成适配python代码的shellcode
-- 优化心跳展示逻辑,当前直接展示心跳秒数
-- 修复浏览器缓存导致页面加载失败问题
-- 修复同时执行多个操作时排队阻塞问题
-- 更新metasploit-framework到6.0.37版本
-
-## v1.2.5 20210314
-- 新增`Windows注册表Run键值持久化(C#)`模块
-- 新增模块文档,可在模块说明中直接打开当前模块的使用文档
-- 新增修改Nginx证书及端口功能
-- 优化免杀模块,适配x86
-- 优化运行模块前端UI
-
-## v1.2.4 20210306
-- 新增`迁移权限到CobaltStrike`模块
-- 新增`SweetPotato提权`模块
-- 新增`Ladon7.0 C#插件`模块
-- 新增`Callback免杀(CreateThreadpoolWait)`模块
-- 新增`Callback免杀(CreateTimerQueue)`模块
-- 新增`Callback免杀(EnumChildWindows)`模块
-- 新增`Callback免杀(EnumWindows)`模块
-- 优化`文件列表`功能
-- 修复`主机信息`显示错位问题
-- 修复启动后无法获取模块列表问题
-- 更新metasploit-framework到6.0.34版本
-
-## v1.2.3 20210228
-- 新增`内存执行C#可执行文件`模块接口
-- 新增`内存执行C#可执行文件`模块接口样例模块
-- 新增`获取浏览器密码模块(C#)`(基于`内存执行C#可执行文件`模块接口)
-- 优化CONSOLE,新增清除按钮及重置按钮
-- 优化Session信息栏,新增监听ID信息,便于观察Session连接到哪个监听
-- 修复Java类型的Payload无法连接问题
-- 修复MS17-010在某些场景中无法返回错误信息问题
-- 修复socks代理无法使用问题
-- 重构viperpython代码,当前代码结构更易于二次开发
-- 更新metasploit-framework到6.0.33版本
-
-## v1.2.2 20210221
-- 增加自动化迁移进程功能
-- 增加Server酱通知Bot
-- 优化Session监控功能  
-- 优化运行模块前端UI
-- 修复`内网端口扫描`模块参数校验错误问题 
-- 修复`获取Windows浏览器密码`模块执行失败问题
-- 更新metasploit-framework到6.0.32版本
-
-## v1.2.1 20210131
-- 优化主控台UI,操作主机及权限更便捷
-- 修复当前任务数量不显示问题
-- 修复部分前端组件重复渲染问题
-- 修复前后端时间不一致时权限心跳信息显示错误问题
-- 修复使用命令终端执行操作系统命令失败问题
-- 更新metasploit-framework到6.0.29版本
-
-## v1.2.0 20210124
-- 修复首次使用无法获取token导致黑屏问题
-- 修复通知列表及模块结果列表时间不更新问题
-- 修复浏览器时间与VPS时间不一致导致Session心跳显示异常问题
-- 修复msfconsole选择自动复制功能页面报错问题
-- 优化socks代理功能
-- 优化log功能,当前可在宿主机log目录查看所有日志
-- 优化登录校验,当前不允许使用默认密码登录系统
-- 优化自定义模块功能
-
-## v1.1.8 20210117
-- 数据库文件挂载本地目录,容器重启/容器删除/镜像更新后数据不丢失
-- 容器重启/容器删除/镜像更新后自动恢复上次运行的监听
-- 使用react hooks重构前端,提升开发与运行效率
-- 聊天功能可切换用户头像,用于多用户协同作战
-- 修复丢失Token导致上传文件失败问题
-
-## v1.1.7 20201227
-
-- 将thin切换为puma,提高性能
-- 优化前端websocket传输逻辑
-
-## v1.1.6 20201219
-
-- 优化payload生成功能(适配隐藏C2功能)
-- 简化模块编写,简化API接口
-- 新增内存执行pe文件模块
-- 修改SSL默认秘钥为2048位
-- Payload加入HttpHostHeader参数
-- 优化Session及主机操作UI
-- 修复全网扫描UI错误
-- 修改渗透服务启动参数,增强长时间运行时稳定性
-- 修改内部组件通讯方式为unix socket,减少系统网络资源占用
-- 合并 msf 6.0.23版本
-
-## v1.1.5 20201025
-
-- 合并msf6.0.13版本
-- 优化msfrpc性能
-
-## v1.1.4 20201016
-
-- 优化UI界面
-- 精简Handler参数展示
-- 控制台当前使用Https
-- 新增SSL证书生成/校对时间教程
-- 模块新增警示提示功能
-- 修复全网扫描错误提示显示失败问题
-- reverse_http新增不免杀提示
-- 生成载荷时自动提示LHOST
-- 优化获取系统权限模块
-- 优化Session与主机的排序逻辑
-- 优化进程管理功能
-- 修复bypass uac 无法运行问题
-- 优化新增用户模块用户组判断逻辑
-- 运行python模块适配python2命令
-- 注入进程可选择pe文件位置,便于注入到傀儡进程(如某数字浏览器)
-- 合并metasploit-framework 6.0.10版本
-
-## v1.1.3 20200928
-
-- 新增Session文件修改功能
-- 移除缓存监听功能,功能与虚拟监听合并
-- 控制台当前使用Https
-- 运行持久化模块后,可自动缓存监听配置,便于后续使用
-- 支持存储域用户hash
-- 优化休眠命令提示
-- 优化msfconsole界面
-- 合并metasploit-framework 6.0.9版本
-
-## v1.1.2 20200911
-
-- 修复无法清除失效session问题
-- 新增克隆https证书模块
-- 修复hashdump模块问题
-- 优化全网扫描展示逻辑
-- 修复psexec模块问题
-- 新增生成服务类型exe
-- 修复从meterpreter进入操作系统shell后CTRL+C无法退出问题
-- 优化web msfconsole的操作逻辑
-- 优化session监控功能,当前只监控初始化完成的session数量
-
-## v1.1.1 20200827
-
-- 新增java,php,python类型payload适配
-- 新增 `vbulletin widget模板命令执行` 全网扫描模块
-- 修复无法生成载荷的BUG
-
-## v1.1.0 20200817
-
-- 新增 `全网扫描` 功能
-
-## v1.0.4 20200714
-
-- 新增钓鱼邮件功能(人工判断沙箱)
-- 新增源码免杀功能(windows)
-
-## v1.0.3 20200620
-
-- 合并metasploit-framework v5.0.95
-- 优化错误提示
-- 新增休眠session功能
-
-## v1.0.2 20200518
-
-- 合并metasploit-framework v5.0.90
-- 优化前端UI细节
-- 优化上传/下载Session文件操作
-
-# Stargazers
-
-[![Stargazers over time](https://starchart.cc/FunnyWolf/Viper.svg)](https://starchart.cc/FunnyWolf/Viper)
-
 # 404StarLink 2.0 - Galaxy
+
 ![](https://github.com/knownsec/404StarLink-Project/raw/master/logo.png)
 
-Viper(炫彩蛇) 是 404Team [星链计划2.0](https://github.com/knownsec/404StarLink2.0-Galaxy)中的一环，如果对Viper(炫彩蛇)  有任何疑问又或是想要找小伙伴交流，可以参考星链计划的加群方式。
-
-- [https://github.com/knownsec/404StarLink2.0-Galaxy#community](https://github.com/knownsec/404StarLink2.0-Galaxy#community)
+Viper has joined 404Team [404StarLink 2.0 - Galaxy](https://github.com/knownsec/404StarLink2.0-Galaxy)
